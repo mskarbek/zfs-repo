@@ -1,0 +1,11 @@
+---
+name: OpenZFS repo
+on: [push]
+jobs:
+  Build-utils:
+    strategy:
+      matrix:
+        os: [fedora:41, fedora:42, fedora:rawhide]
+    runs-on: ubuntu-lates
+    steps:
+      - run: echo "${{ matrix.os }}"
