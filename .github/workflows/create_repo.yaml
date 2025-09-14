@@ -2,10 +2,26 @@
 name: OpenZFS repo
 on: [push]
 jobs:
-  Build-utils:
+  fedora-build-utils:
     strategy:
       matrix:
-        os: [fedora:41, fedora:42, fedora:rawhide]
+        os:
+          [
+            quay.io/fedora/fedora:41,
+            quay.io/fedora/fedora:42,
+            quay.io/fedora/fedora:rawhide,
+            quay.io/fedora/eln:latest,
+            docker.io/redhat/ubi8:latest,
+            docker.io/redhat/ubi9:latest,
+            docker.io/redhat/ubi10:latest,
+          ]
     runs-on: ubuntu-lates
     steps:
-      - run: echo "${{ matrix.os }}"
+      - run: mkdir ./tmp
+      - run: podman pull ${{ matrix.os }}
+      - run: podman run -d -v ./tmp:/root/tmp --init --name builder --network host ${{ matrix.os }} sleep 1h
+      - run: podman exec builder dnf clean all
+      - run: podman exec builder dnf update -y
+      - run: podman exec --workdir /root builder curl -LO https://github.com/openzfs/zfs/releases/download/zfs-2.3.4/zfs-2.3.4.tar.gz
+      - run: podman exec --workdir /root builder tar xvf zfs-2.3.4.tar.gz
+      - run: podman stop builder
