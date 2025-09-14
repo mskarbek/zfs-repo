@@ -15,7 +15,7 @@ jobs:
             docker.io/redhat/ubi9:latest,
             docker.io/redhat/ubi10:latest,
           ]
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - run: mkdir ./tmp
       - run: podman pull ${{ matrix.os }}
