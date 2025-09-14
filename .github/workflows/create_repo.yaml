@@ -10,7 +10,6 @@ jobs:
             quay.io/fedora/fedora:41,
             quay.io/fedora/fedora:42,
             quay.io/fedora/fedora:rawhide,
-            quay.io/fedora/eln:latest,
           ]
     runs-on: ubuntu-latest
     steps:
