@@ -18,7 +18,7 @@ jobs:
       - run: podman run -d -v ./tmp:/root/tmp --init --name builder --network host ${{ matrix.os }} sleep 1h
       - run: podman exec builder dnf clean all
       - run: podman exec builder dnf update -y
-      - run: podman exec builder dnf install gcc make autoconf automake libtool rpm-build kernel-rpm-macros libtirpc-devel libblkid-devel libuuid-devel systemd systemd-devel openssl-devel zlib-ng-compat-devel libaio-devel libattr-devel libffi-devel libunwind-devel kernel-devel python3 python3-devel openssl ncompress
+      - run: podman exec builder dnf install -y gcc make autoconf automake libtool rpm-build kernel-rpm-macros libtirpc-devel libblkid-devel libuuid-devel systemd systemd-devel openssl-devel zlib-ng-compat-devel libaio-devel libattr-devel libffi-devel libunwind-devel kernel-devel python3 python3-devel openssl ncompress
       - run: podman exec --workdir /root builder curl -LO https://github.com/openzfs/zfs/releases/download/zfs-2.3.4/zfs-2.3.4.tar.gz
       - run: podman exec --workdir /root builder tar xvf zfs-2.3.4.tar.gz
       - run: podman exec --workdir /root/zfs-2.3.4 builder ./configure
