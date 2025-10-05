@@ -8,6 +8,8 @@ jobs:
   check-versions:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v5
+      - run: ls -la
       - run: podman pull quay.io/fedora/fedora:42
       - run: podman run -d -v ./:/root/repo/ --init --name builder --network host quay.io/fedora/fedora:42 sleep 1h
       - run: podman exec builder dnf clean all
