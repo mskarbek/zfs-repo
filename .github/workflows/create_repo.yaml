@@ -1,8 +1,11 @@
 ---
 name: OpenZFS repo
-on: [push]
+on:
+  schedule:
+    - cron: "10 1 * * *"
+  workflow_dispatch:
 jobs:
-  build-utils:
+  check-versions:
     strategy:
       matrix:
         os:
@@ -11,9 +14,6 @@ jobs:
             quay.io/fedora/fedora:42,
             quay.io/fedora/fedora:rawhide,
             quay.io/fedora/eln:latest,
-            docker.io/redhat/ubi8:latest,
-            docker.io/redhat/ubi9:latest,
-            docker.io/redhat/ubi10:latest,
           ]
       fail-fast: false
     runs-on: ubuntu-latest
