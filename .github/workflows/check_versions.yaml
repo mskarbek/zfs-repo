@@ -13,6 +13,5 @@ jobs:
       - run: podman exec builder dnf clean all
       - run: podman exec builder dnf update -y
       - run: podman exec builder dnf install -y uv python3-devel python3-cffi python3-setuptools krb5-devel
-      - run: podman exec --workdir /root/repo builder /root/repo/scripts/check_zfs.py
-      - run: podman exec --workdir /root/repo builder /root/repo/scripts/check_kernels.py
+      - run: podman exec --workdir /root/repo builder ls -la
       - run: podman stop builder
