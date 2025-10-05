@@ -1,0 +1,17 @@
+---
+name: "Check versions"
+on:
+  schedule:
+    - cron: "0 1 * * *"
+jobs:
+  check-versions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: podman pull quay.io/fedora/fedora:42
+      - run: podman run -d -v ./:/root/repo/ --init --name builder --network host quay.io/fedora/fedora:42 sleep 1h
+      - run: podman exec builder dnf clean all
+      - run: podman exec builder dnf update -y
+      - run: podman exec builder dnf install -y uv python3-devel python3-cffi python3-setuptools krb5-devel
+      - run: podman exec --workdir /root/repo builder ./scripts/check_zfs.py
+      - run: podman exec --workdir /root/repo builder ./scripts/check_kernels.py
+      - run: podman stop builder
