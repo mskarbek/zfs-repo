@@ -32,7 +32,7 @@ releases = {
 regex = re.compile(r"Linux-Maximum: +([0-9]\.[0-9][0-9])")
 
 for release in releases:
-    with open(f"versions/openzfs-{release}.json", "r+") as f:
+    with open(f"versions/openzfs-{release}.json", "w") as f:
         if release != "master":
             for entry in feed["entries"]:
                 if (
