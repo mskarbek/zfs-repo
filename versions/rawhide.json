@@ -1,0 +1,10 @@
+{
+  "version": "6.18.0",
+  "release": "0.rc2.251022g552c50713f273.25",
+  "dist": "fc44",
+  "packages": [
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc2.251022g552c50713f273.25.fc44/x86_64/kernel-6.18.0-0.rc2.251022g552c50713f273.25.fc44.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc2.251022g552c50713f273.25.fc44/x86_64/kernel-devel-6.18.0-0.rc2.251022g552c50713f273.25.fc44.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc2.251022g552c50713f273.25.fc44/x86_64/kernel-core-6.18.0-0.rc2.251022g552c50713f273.25.fc44.x86_64.rpm"
+  ]
+}

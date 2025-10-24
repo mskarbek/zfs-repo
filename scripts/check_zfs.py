@@ -53,6 +53,7 @@ for release in releases:
                         {"version": version}
                     )
                     json.dump(releases[release], f, indent=2)
+                    print(f"{version}")
         else:
             releases[release]["version"] = "master"
             meta = requests.get(master_meta_url)
@@ -62,3 +63,4 @@ for release in releases:
             releases[release]["meta_url"] = master_meta_url
             releases[release]["dwonload_url"] = master_dwonload_url
             json.dump(releases[release], f, indent=2)
+            print("master")

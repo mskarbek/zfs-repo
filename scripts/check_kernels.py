@@ -55,7 +55,7 @@ for config in koji_config:
             url = f"{config['pkgs_url']}"
         else:
             url = f"{config['pkgs_url']}/vol/{rpms[1][0]['volume_name']}"
-        with open(f"{tag}.json", "w") as file:
+        with open(f"versions/{tag}.json", "w") as file:
             data = {}
             data["version"] = rpms[1][0]["version"]
             data["release"] = rpms[1][0]["release"].rsplit(".", 1)[0]
@@ -68,5 +68,5 @@ for config in koji_config:
                         data["packages"].append(
                             f"{url}/packages/kernel/{rpm['version']}/{rpm['release']}/{rpm['arch']}/{rpm['name']}-{rpm['version']}-{rpm['release']}.{rpm['arch']}.rpm"
                         )
-            file.write(json.dumps(data))
+            json.dump(data, file, indent=2)
             print(f"{tag}: {rpms[1][0]['version']}-{rpms[1][0]['release']}")
