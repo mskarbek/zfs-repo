@@ -22,9 +22,10 @@ jobs:
       - uses: actions/checkout@v5
       - id: meta
         run: |
-          jq -r '.|"VERSION=\(.version)"' versions/openzfs-${{ matrix.version }}.json
-          jq -r '.|"MAX_KERNEL_VERSION=\(.max_kernel_version)"' versions/openzfs-${{ matrix.version }}.json >> $GITHUB_ENV
-          jq -r '.|"DOWNLOAD_URL=\(.dwonload_url)"' versions/openzfs-${{ matrix.version }}.json >> $GITHUB_ENV
-          echo ${{ env.VERSION }}
-          echo ${{ env.MAX_KERNEL_VERSION }}
-          echo ${{ env.DOWNLOAD_URL }}
+          jq -r '.|"VERSION=\(.version)"' versions/openzfs-${{ matrix.version }}.json >> "$GITHUB_ENV"
+          jq -r '.|"MAX_KERNEL_VERSION=\(.max_kernel_version)"' versions/openzfs-${{ matrix.version }}.json >> "$GITHUB_ENV"
+          jq -r '.|"DOWNLOAD_URL=\(.dwonload_url)"' versions/openzfs-${{ matrix.version }}.json >> "$GITHUB_ENV"
+      - run: |
+          echo $VERSION
+          echo $MAX_KERNEL_VERSION
+          echo $DOWNLOAD_URL
