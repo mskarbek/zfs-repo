@@ -11,15 +11,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - run: podman pull quay.io/fedora/fedora:42
-      - run: podman run -d -v ./:/root/repo/ --init --name builder --network host quay.io/fedora/fedora:42 sleep 1h
-      - run: podman exec builder dnf clean all
-      - run: podman exec builder dnf update -y
-      - run: podman exec builder dnf install -y gcc uv python3-devel python3-cffi python3-setuptools krb5-devel
-      - run: podman exec --workdir /root/repo builder ./scripts/check_zfs.py
-      - run: podman exec --workdir /root/repo builder ./scripts/check_kernels.py
-      - run: podman stop builder
-      - id: commit
+      - name: Download image
+        run: podman pull quay.io/fedora/fedora:42
+      - name: Start container
+        run: podman run -d -v ./:/root/repo/ --init --name builder --network host quay.io/fedora/fedora:42 sleep 1h
+      - name: Clean cache
+        run: podman exec builder dnf clean all
+      - name: Update packages
+        run: podman exec builder dnf update -y
+      - name: Install dependencies
+        run: podman exec builder dnf install -y gcc uv python3-devel python3-cffi python3-setuptools krb5-devel
+      - name: Check OpenZFS versions
+        run: podman exec --workdir /root/repo builder ./scripts/check_zfs.py
+      - name: Check Kernel versions
+        run: podman exec --workdir /root/repo builder ./scripts/check_kernels.py
+      - name: Stop container
+        run: podman stop builder
+      - name: Commit changes
+        id: commit
+        continue-on-error: true
         run: |
           git config user.name "Marcin Skarbek"
           git config user.email "1520395+mskarbek@users.noreply.github.com"
@@ -28,5 +38,6 @@ jobs:
           if [ $? -eq 0 ]; then
             echo "::set-output name=push::true"
           fi
-      - if: steps.commit.outputs.push == 'true'
+      - name: Push changes
+        if: steps.commit.outputs.push == 'true'
         run: git push
