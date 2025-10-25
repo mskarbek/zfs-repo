@@ -19,6 +19,7 @@ jobs:
       fail-fast: false
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v5
       - id: meta
         run: |
           VERSION = jq -r .dwonload_url versions/openzfs-${{ matrix.os }}.json
