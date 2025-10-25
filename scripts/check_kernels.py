@@ -58,6 +58,8 @@ for config in koji_config:
         with open(f"versions/{tag}.json", "w") as file:
             data = {}
             data["version"] = rpms[1][0]["version"]
+            data["major_version"] = rpms[1][0]["version"].split(".")[0]
+            data["minor_version"] = rpms[1][0]["version"].split(".")[1]
             data["release"] = rpms[1][0]["release"].rsplit(".", 1)[0]
             data["dist"] = rpms[1][0]["release"].rsplit(".", 1)[1]
             data["packages"] = []

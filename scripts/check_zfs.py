@@ -45,7 +45,12 @@ for release in releases:
                     meta = requests.get(tag_meta_url.substitute({"version": version}))
                     kernel_max = regex.search(meta.text)
                     if kernel_max is not None:
-                        releases[release]["max_kernel_version"] = kernel_max.group(1)
+                        releases[release]["max_kernel_major_version"] = (
+                            kernel_max.group(1).split(".")[0]
+                        )
+                        releases[release]["max_kernel_minor_version"] = (
+                            kernel_max.group(1).split(".")[1]
+                        )
                     releases[release]["meta_url"] = tag_meta_url.substitute(
                         {"version": version}
                     )
@@ -59,7 +64,12 @@ for release in releases:
             meta = requests.get(master_meta_url)
             kernel_max = regex.search(meta.text)
             if kernel_max is not None:
-                releases[release]["max_kernel_version"] = kernel_max.group(1)
+                releases[release]["max_kernel_major_version"] = kernel_max.group(
+                    1
+                ).split(".")[0]
+                releases[release]["max_kernel_minor_version"] = kernel_max.group(
+                    1
+                ).split(".")[1]
             releases[release]["meta_url"] = master_meta_url
             releases[release]["dwonload_url"] = master_dwonload_url
             json.dump(releases[release], f, indent=2)

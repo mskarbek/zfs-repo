@@ -15,17 +15,19 @@ jobs:
             #quay.io/centos/centos:stream9,
             #quay.io/centos/centos:stream10,
           ]
-        version: [2.2, 2.3, 2.4]
+        version: [2.2, 2.3, 2.4, master]
       fail-fast: false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
       - id: meta
         run: |
-          jq -r '.|"VERSION=\(.version)"' versions/openzfs-${{ matrix.version }}.json >> "$GITHUB_ENV"
-          jq -r '.|"MAX_KERNEL_VERSION=\(.max_kernel_version)"' versions/openzfs-${{ matrix.version }}.json >> "$GITHUB_ENV"
-          jq -r '.|"DOWNLOAD_URL=\(.dwonload_url)"' versions/openzfs-${{ matrix.version }}.json >> "$GITHUB_ENV"
+          jq -r '.|"VERSION=\(.version)"' versions/openzfs-${{ matrix.version }}.json >> $GITHUB_ENV
+          jq -r '.|"MAX_KERNEL_MAJOR_VERSION=\(.max_kernel_major_version)"' versions/openzfs-${{ matrix.version }}.json >> $GITHUB_ENV
+          jq -r '.|"MAX_KERNEL_MINOR_VERSION=\(.max_kernel_minor_version)"' versions/openzfs-${{ matrix.version }}.json >> $GITHUB_ENV
+          jq -r '.|"DOWNLOAD_URL=\(.dwonload_url)"' versions/openzfs-${{ matrix.version }}.json >> $GITHUB_ENV
       - run: |
           echo $VERSION
-          echo $MAX_KERNEL_VERSION
+          echo $MAX_KERNEL_MAJOR_VERSION
+          echo $MAX_KERNEL_MINOR_VERSION
           echo $DOWNLOAD_URL
