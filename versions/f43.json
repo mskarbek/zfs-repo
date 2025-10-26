@@ -1,5 +1,7 @@
 {
   "version": "6.17.1",
+  "major_version": "6",
+  "minor_version": "17",
   "release": "300",
   "dist": "fc43",
   "packages": [

@@ -1,5 +1,7 @@
 {
   "version": "6.12.0",
+  "major_version": "6",
+  "minor_version": "12",
   "release": "141",
   "dist": "el10,draft_85967",
   "packages": [

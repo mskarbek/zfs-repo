@@ -1,5 +1,7 @@
 {
   "version": "5.14.0",
+  "major_version": "5",
+  "minor_version": "14",
   "release": "629",
   "dist": "el9",
   "packages": [
