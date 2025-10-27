@@ -12,8 +12,6 @@ koji_config = [
         "koji_url": "https://koji.fedoraproject.org/kojihub",
         "pkgs_url": "https://kojipkgs.fedoraproject.org",
         "tags": [
-            "f41",
-            "f41-updates",
             "f42",
             "f42-updates",
             "f43",
@@ -55,7 +53,7 @@ for config in koji_config:
             url = f"{config['pkgs_url']}"
         else:
             url = f"{config['pkgs_url']}/vol/{rpms[1][0]['volume_name']}"
-        with open(f"versions/{tag}.json", "w") as file:
+        with open(f"versions/{tag}.json", "w") as f:
             data = {}
             data["version"] = rpms[1][0]["version"]
             data["major_version"] = rpms[1][0]["version"].split(".")[0]
@@ -70,5 +68,5 @@ for config in koji_config:
                         data["packages"].append(
                             f"{url}/packages/kernel/{rpm['version']}/{rpm['release']}/{rpm['arch']}/{rpm['name']}-{rpm['version']}-{rpm['release']}.{rpm['arch']}.rpm"
                         )
-            json.dump(data, file, indent=2, sort_keys=True)
+            json.dump(data, f, indent=2, sort_keys=True)
             print(f"{tag}: {rpms[1][0]['version']}-{rpms[1][0]['release']}")
