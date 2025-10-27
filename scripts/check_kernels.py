@@ -70,5 +70,5 @@ for config in koji_config:
                         data["packages"].append(
                             f"{url}/packages/kernel/{rpm['version']}/{rpm['release']}/{rpm['arch']}/{rpm['name']}-{rpm['version']}-{rpm['release']}.{rpm['arch']}.rpm"
                         )
-            json.dump(data, file, indent=2)
+            json.dump(data, file, indent=2, sort_keys=True)
             print(f"{tag}: {rpms[1][0]['version']}-{rpms[1][0]['release']}")

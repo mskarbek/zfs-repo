@@ -72,5 +72,5 @@ for release in releases:
                 ).split(".")[1]
             releases[release]["meta_url"] = master_meta_url
             releases[release]["dwonload_url"] = master_dwonload_url
-            json.dump(releases[release], f, indent=2)
+            json.dump(releases[release], f, indent=2, sort_keys=True)
             print("master")
