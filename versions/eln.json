@@ -1,14 +1,14 @@
 {
-  "version": "6.18.0",
+  "dist": "eln152",
   "major_version": "6",
   "minor_version": "18",
-  "release": "0.rc2.251022g552c50713f273.25",
-  "dist": "eln152",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc2.251022g552c50713f273.25.eln152/x86_64/kernel-6.18.0-0.rc2.251022g552c50713f273.25.eln152.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc2.251022g552c50713f273.25.eln152/x86_64/kernel-devel-6.18.0-0.rc2.251022g552c50713f273.25.eln152.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc2.251022g552c50713f273.25.eln152/x86_64/kernel-headers-6.18.0-0.rc2.251022g552c50713f273.25.eln152.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc2.251022g552c50713f273.25.eln152/x86_64/kernel-core-6.18.0-0.rc2.251022g552c50713f273.25.eln152.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc2.251022g552c50713f273.25.eln152/noarch/kernel-abi-stablelists-6.18.0-0.rc2.251022g552c50713f273.25.eln152.noarch.rpm"
-  ]
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc3.30.eln152/x86_64/kernel-headers-6.18.0-0.rc3.30.eln152.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc3.30.eln152/x86_64/kernel-6.18.0-0.rc3.30.eln152.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc3.30.eln152/x86_64/kernel-devel-6.18.0-0.rc3.30.eln152.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc3.30.eln152/x86_64/kernel-core-6.18.0-0.rc3.30.eln152.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc3.30.eln152/noarch/kernel-abi-stablelists-6.18.0-0.rc3.30.eln152.noarch.rpm"
+  ],
+  "release": "0.rc3.30",
+  "version": "6.18.0"
 }

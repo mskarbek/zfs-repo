@@ -1,12 +1,12 @@
 {
-  "version": "6.14.0",
+  "dist": "fc42",
   "major_version": "6",
   "minor_version": "14",
-  "release": "63",
-  "dist": "fc42",
   "packages": [
     "https://kojipkgs.fedoraproject.org/packages/kernel/6.14.0/63.fc42/x86_64/kernel-6.14.0-63.fc42.x86_64.rpm",
     "https://kojipkgs.fedoraproject.org/packages/kernel/6.14.0/63.fc42/x86_64/kernel-devel-6.14.0-63.fc42.x86_64.rpm",
     "https://kojipkgs.fedoraproject.org/packages/kernel/6.14.0/63.fc42/x86_64/kernel-core-6.14.0-63.fc42.x86_64.rpm"
-  ]
+  ],
+  "release": "63",
+  "version": "6.14.0"
 }
