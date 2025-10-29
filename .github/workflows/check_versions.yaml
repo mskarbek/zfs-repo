@@ -14,11 +14,11 @@ jobs:
       - name: Update Ubuntu repos
         env:
           DEBIAN_FRONTEND: noninteractive
-        run: apt-get update
+        run: sudo apt-get update
       - name: Install uv
         env:
           DEBIAN_FRONTEND: noninteractive
-        run: apt-get install uv
+        run: sudo apt-get install uv
       - name: Check OpenZFS versions
         run: ./scripts/check_zfs.py
       - name: Check Kernel versions
