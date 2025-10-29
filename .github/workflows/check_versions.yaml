@@ -11,22 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - name: Download image
-        run: podman pull quay.io/fedora/fedora:42
-      - name: Start container
-        run: podman run -d -v ./:/root/repo/ --init --name builder --network host quay.io/fedora/fedora:42 sleep 1h
-      - name: Clean cache
-        run: podman exec builder dnf clean all
-      - name: Update packages
-        run: podman exec builder dnf update -y
-      - name: Install dependencies
-        run: podman exec builder dnf install -y gcc uv python3-devel python3-cffi python3-setuptools krb5-devel
       - name: Check OpenZFS versions
-        run: podman exec --workdir /root/repo builder ./scripts/check_zfs.py
+        run: ./scripts/check_zfs.py
       - name: Check Kernel versions
-        run: podman exec --workdir /root/repo builder ./scripts/check_kernels.py
-      - name: Stop container
-        run: podman stop builder
+        run: ./scripts/check_kernels.py
       - name: Commit changes
         id: commit
         continue-on-error: true
