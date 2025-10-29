@@ -11,14 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - name: Update Ubuntu repos
-        env:
-          DEBIAN_FRONTEND: noninteractive
-        run: sudo apt-get update
       - name: Install uv
-        env:
-          DEBIAN_FRONTEND: noninteractive
-        run: sudo apt-get install uv
+        run: curl -LsSf https://astral.sh/uv/install.sh | sh
       - name: Check OpenZFS versions
         run: ./scripts/check_zfs.py
       - name: Check Kernel versions
