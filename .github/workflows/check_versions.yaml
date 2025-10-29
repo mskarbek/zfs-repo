@@ -12,7 +12,12 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Install uv
-        run: curl -LsSf https://astral.sh/uv/install.sh | sh
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          sudo apt-get update
+          sudo apt-get install libkrb5-dev
+          curl -LsSf https://astral.sh/uv/install.sh | sh
       - name: Check OpenZFS versions
         run: ./scripts/check_zfs.py
       - name: Check Kernel versions
