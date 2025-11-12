@@ -3,10 +3,10 @@
   "major_version": "6",
   "minor_version": "18",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc4.251106gdc77806cf3b47.40.fc44/x86_64/kernel-6.18.0-0.rc4.251106gdc77806cf3b47.40.fc44.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc4.251106gdc77806cf3b47.40.fc44/x86_64/kernel-devel-6.18.0-0.rc4.251106gdc77806cf3b47.40.fc44.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc4.251106gdc77806cf3b47.40.fc44/x86_64/kernel-core-6.18.0-0.rc4.251106gdc77806cf3b47.40.fc44.x86_64.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc5.251111g4427259cc7f75.45.fc44/x86_64/kernel-6.18.0-0.rc5.251111g4427259cc7f75.45.fc44.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc5.251111g4427259cc7f75.45.fc44/x86_64/kernel-devel-6.18.0-0.rc5.251111g4427259cc7f75.45.fc44.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc5.251111g4427259cc7f75.45.fc44/x86_64/kernel-core-6.18.0-0.rc5.251111g4427259cc7f75.45.fc44.x86_64.rpm"
   ],
-  "release": "0.rc4.251106gdc77806cf3b47.40",
+  "release": "0.rc5.251111g4427259cc7f75.45",
   "version": "6.18.0"
 }
