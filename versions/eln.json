@@ -3,12 +3,12 @@
   "major_version": "6",
   "minor_version": "18",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc5.251111g4427259cc7f75.45.eln152/x86_64/kernel-headers-6.18.0-0.rc5.251111g4427259cc7f75.45.eln152.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc5.251111g4427259cc7f75.45.eln152/x86_64/kernel-devel-6.18.0-0.rc5.251111g4427259cc7f75.45.eln152.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc5.251111g4427259cc7f75.45.eln152/x86_64/kernel-6.18.0-0.rc5.251111g4427259cc7f75.45.eln152.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc5.251111g4427259cc7f75.45.eln152/x86_64/kernel-core-6.18.0-0.rc5.251111g4427259cc7f75.45.eln152.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc5.251111g4427259cc7f75.45.eln152/noarch/kernel-abi-stablelists-6.18.0-0.rc5.251111g4427259cc7f75.45.eln152.noarch.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc5.251112g24172e0d79900.46.eln152/x86_64/kernel-headers-6.18.0-0.rc5.251112g24172e0d79900.46.eln152.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc5.251112g24172e0d79900.46.eln152/x86_64/kernel-devel-6.18.0-0.rc5.251112g24172e0d79900.46.eln152.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc5.251112g24172e0d79900.46.eln152/x86_64/kernel-6.18.0-0.rc5.251112g24172e0d79900.46.eln152.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc5.251112g24172e0d79900.46.eln152/x86_64/kernel-core-6.18.0-0.rc5.251112g24172e0d79900.46.eln152.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc5.251112g24172e0d79900.46.eln152/noarch/kernel-abi-stablelists-6.18.0-0.rc5.251112g24172e0d79900.46.eln152.noarch.rpm"
   ],
-  "release": "0.rc5.251111g4427259cc7f75.45",
+  "release": "0.rc5.251112g24172e0d79900.46",
   "version": "6.18.0"
 }
