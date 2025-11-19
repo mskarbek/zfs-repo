@@ -3,10 +3,10 @@
   "major_version": "6",
   "minor_version": "17",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.17.7/200.fc42/x86_64/kernel-6.17.7-200.fc42.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.17.7/200.fc42/x86_64/kernel-devel-6.17.7-200.fc42.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.17.7/200.fc42/x86_64/kernel-core-6.17.7-200.fc42.x86_64.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.17.8/200.fc42/x86_64/kernel-6.17.8-200.fc42.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.17.8/200.fc42/x86_64/kernel-devel-6.17.8-200.fc42.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.17.8/200.fc42/x86_64/kernel-core-6.17.8-200.fc42.x86_64.rpm"
   ],
   "release": "200",
-  "version": "6.17.7"
+  "version": "6.17.8"
 }
