@@ -1,7 +1,7 @@
 {
-  "version": "2.4.0-rc4",
+  "version": "2.4.0-rc5",
   "max_kernel_major_version": "6",
-  "max_kernel_minor_version": "17",
-  "meta_url": "https://raw.githubusercontent.com/openzfs/zfs/refs/tags/zfs-2.4.0-rc4/META",
-  "dwonload_url": "https://github.com/openzfs/zfs/archive/refs/tags/zfs-2.4.0-rc4.tar.gz"
+  "max_kernel_minor_version": "18",
+  "meta_url": "https://raw.githubusercontent.com/openzfs/zfs/refs/tags/zfs-2.4.0-rc5/META",
+  "dwonload_url": "https://github.com/openzfs/zfs/archive/refs/tags/zfs-2.4.0-rc5.tar.gz"
 }
