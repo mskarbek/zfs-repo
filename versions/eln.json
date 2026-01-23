@@ -1,14 +1,14 @@
 {
-  "dist": "eln153",
+  "dist": "eln154",
   "major_version": "6",
-  "minor_version": "18",
+  "minor_version": "19",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc7.251129g19eef1d98eed.63.eln153/x86_64/kernel-headers-6.18.0-0.rc7.251129g19eef1d98eed.63.eln153.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc7.251129g19eef1d98eed.63.eln153/x86_64/kernel-devel-6.18.0-0.rc7.251129g19eef1d98eed.63.eln153.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc7.251129g19eef1d98eed.63.eln153/x86_64/kernel-6.18.0-0.rc7.251129g19eef1d98eed.63.eln153.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc7.251129g19eef1d98eed.63.eln153/x86_64/kernel-core-6.18.0-0.rc7.251129g19eef1d98eed.63.eln153.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.0/0.rc7.251129g19eef1d98eed.63.eln153/noarch/kernel-abi-stablelists-6.18.0-0.rc7.251129g19eef1d98eed.63.eln153.noarch.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/0.rc6.260121g6c790212c588f.44.eln154/x86_64/kernel-devel-6.19.0-0.rc6.260121g6c790212c588f.44.eln154.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/0.rc6.260121g6c790212c588f.44.eln154/x86_64/kernel-6.19.0-0.rc6.260121g6c790212c588f.44.eln154.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/0.rc6.260121g6c790212c588f.44.eln154/x86_64/kernel-headers-6.19.0-0.rc6.260121g6c790212c588f.44.eln154.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/0.rc6.260121g6c790212c588f.44.eln154/x86_64/kernel-core-6.19.0-0.rc6.260121g6c790212c588f.44.eln154.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/0.rc6.260121g6c790212c588f.44.eln154/noarch/kernel-abi-stablelists-6.19.0-0.rc6.260121g6c790212c588f.44.eln154.noarch.rpm"
   ],
-  "release": "0.rc7.251129g19eef1d98eed.63",
-  "version": "6.18.0"
+  "release": "0.rc6.260121g6c790212c588f.44",
+  "version": "6.19.0"
 }
