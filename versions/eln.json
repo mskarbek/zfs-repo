@@ -3,12 +3,12 @@
   "major_version": "6",
   "minor_version": "19",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/0.rc8.260206gb7ff7151e653.58.eln155/x86_64/kernel-devel-6.19.0-0.rc8.260206gb7ff7151e653.58.eln155.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/0.rc8.260206gb7ff7151e653.58.eln155/x86_64/kernel-headers-6.19.0-0.rc8.260206gb7ff7151e653.58.eln155.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/0.rc8.260206gb7ff7151e653.58.eln155/x86_64/kernel-6.19.0-0.rc8.260206gb7ff7151e653.58.eln155.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/0.rc8.260206gb7ff7151e653.58.eln155/x86_64/kernel-core-6.19.0-0.rc8.260206gb7ff7151e653.58.eln155.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/0.rc8.260206gb7ff7151e653.58.eln155/noarch/kernel-abi-stablelists-6.19.0-0.rc8.260206gb7ff7151e653.58.eln155.noarch.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/59.eln155/x86_64/kernel-devel-6.19.0-59.eln155.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/59.eln155/x86_64/kernel-headers-6.19.0-59.eln155.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/59.eln155/x86_64/kernel-6.19.0-59.eln155.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/59.eln155/x86_64/kernel-core-6.19.0-59.eln155.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/59.eln155/noarch/kernel-abi-stablelists-6.19.0-59.eln155.noarch.rpm"
   ],
-  "release": "0.rc8.260206gb7ff7151e653.58",
+  "release": "59",
   "version": "6.19.0"
 }

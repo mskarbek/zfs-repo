@@ -3,10 +3,10 @@
   "major_version": "6",
   "minor_version": "19",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/0.rc8.260206gb7ff7151e653.58.fc45/x86_64/kernel-devel-6.19.0-0.rc8.260206gb7ff7151e653.58.fc45.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/0.rc8.260206gb7ff7151e653.58.fc45/x86_64/kernel-6.19.0-0.rc8.260206gb7ff7151e653.58.fc45.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/0.rc8.260206gb7ff7151e653.58.fc45/x86_64/kernel-core-6.19.0-0.rc8.260206gb7ff7151e653.58.fc45.x86_64.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/59.fc45/x86_64/kernel-6.19.0-59.fc45.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/59.fc45/x86_64/kernel-devel-6.19.0-59.fc45.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.0/59.fc45/x86_64/kernel-core-6.19.0-59.fc45.x86_64.rpm"
   ],
-  "release": "0.rc8.260206gb7ff7151e653.58",
+  "release": "59",
   "version": "6.19.0"
 }
