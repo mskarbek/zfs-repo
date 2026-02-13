@@ -3,10 +3,10 @@
   "major_version": "6",
   "minor_version": "20",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260210g72c395024dac.1.fc45/x86_64/kernel-6.20.0-0.rc0.260210g72c395024dac.1.fc45.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260210g72c395024dac.1.fc45/x86_64/kernel-devel-6.20.0-0.rc0.260210g72c395024dac.1.fc45.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260210g72c395024dac.1.fc45/x86_64/kernel-core-6.20.0-0.rc0.260210g72c395024dac.1.fc45.x86_64.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260212gc22e26bd0906e.3.fc45/x86_64/kernel-devel-6.20.0-0.rc0.260212gc22e26bd0906e.3.fc45.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260212gc22e26bd0906e.3.fc45/x86_64/kernel-6.20.0-0.rc0.260212gc22e26bd0906e.3.fc45.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260212gc22e26bd0906e.3.fc45/x86_64/kernel-core-6.20.0-0.rc0.260212gc22e26bd0906e.3.fc45.x86_64.rpm"
   ],
-  "release": "0.rc0.260210g72c395024dac.1",
+  "release": "0.rc0.260212gc22e26bd0906e.3",
   "version": "6.20.0"
 }
