@@ -3,10 +3,10 @@
   "major_version": "6",
   "minor_version": "18",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.9/100.fc42/x86_64/kernel-6.18.9-100.fc42.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.9/100.fc42/x86_64/kernel-devel-6.18.9-100.fc42.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.9/100.fc42/x86_64/kernel-core-6.18.9-100.fc42.x86_64.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.10/100.fc42/x86_64/kernel-6.18.10-100.fc42.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.10/100.fc42/x86_64/kernel-devel-6.18.10-100.fc42.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.10/100.fc42/x86_64/kernel-core-6.18.10-100.fc42.x86_64.rpm"
   ],
   "release": "100",
-  "version": "6.18.9"
+  "version": "6.18.10"
 }
