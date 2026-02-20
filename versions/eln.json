@@ -3,12 +3,12 @@
   "major_version": "6",
   "minor_version": "20",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260218g2961f841b025f.11.eln155/x86_64/kernel-6.20.0-0.rc0.260218g2961f841b025f.11.eln155.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260218g2961f841b025f.11.eln155/x86_64/kernel-headers-6.20.0-0.rc0.260218g2961f841b025f.11.eln155.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260218g2961f841b025f.11.eln155/x86_64/kernel-devel-6.20.0-0.rc0.260218g2961f841b025f.11.eln155.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260218g2961f841b025f.11.eln155/x86_64/kernel-core-6.20.0-0.rc0.260218g2961f841b025f.11.eln155.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260218g2961f841b025f.11.eln155/noarch/kernel-abi-stablelists-6.20.0-0.rc0.260218g2961f841b025f.11.eln155.noarch.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260219g2b7a25df823dc.12.eln155/x86_64/kernel-devel-6.20.0-0.rc0.260219g2b7a25df823dc.12.eln155.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260219g2b7a25df823dc.12.eln155/x86_64/kernel-headers-6.20.0-0.rc0.260219g2b7a25df823dc.12.eln155.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260219g2b7a25df823dc.12.eln155/x86_64/kernel-6.20.0-0.rc0.260219g2b7a25df823dc.12.eln155.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260219g2b7a25df823dc.12.eln155/x86_64/kernel-core-6.20.0-0.rc0.260219g2b7a25df823dc.12.eln155.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260219g2b7a25df823dc.12.eln155/noarch/kernel-abi-stablelists-6.20.0-0.rc0.260219g2b7a25df823dc.12.eln155.noarch.rpm"
   ],
-  "release": "0.rc0.260218g2961f841b025f.11",
+  "release": "0.rc0.260219g2b7a25df823dc.12",
   "version": "6.20.0"
 }
