@@ -1,12 +1,12 @@
 {
   "dist": "fc45",
-  "major_version": "6",
-  "minor_version": "20",
+  "major_version": "7",
+  "minor_version": "0",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260219g2b7a25df823dc.12.fc45/x86_64/kernel-6.20.0-0.rc0.260219g2b7a25df823dc.12.fc45.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260219g2b7a25df823dc.12.fc45/x86_64/kernel-devel-6.20.0-0.rc0.260219g2b7a25df823dc.12.fc45.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.20.0/0.rc0.260219g2b7a25df823dc.12.fc45/x86_64/kernel-core-6.20.0-0.rc0.260219g2b7a25df823dc.12.fc45.x86_64.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc1.15.fc45/x86_64/kernel-7.0.0-0.rc1.15.fc45.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc1.15.fc45/x86_64/kernel-devel-7.0.0-0.rc1.15.fc45.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc1.15.fc45/x86_64/kernel-core-7.0.0-0.rc1.15.fc45.x86_64.rpm"
   ],
-  "release": "0.rc0.260219g2b7a25df823dc.12",
-  "version": "6.20.0"
+  "release": "0.rc1.15",
+  "version": "7.0.0"
 }
