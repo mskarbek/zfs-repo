@@ -3,10 +3,10 @@
   "major_version": "7",
   "minor_version": "0",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc1.15.fc45/x86_64/kernel-7.0.0-0.rc1.15.fc45.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc1.15.fc45/x86_64/kernel-devel-7.0.0-0.rc1.15.fc45.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc1.15.fc45/x86_64/kernel-core-7.0.0-0.rc1.15.fc45.x86_64.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc1.260224g7dff99b354601.17.fc45/x86_64/kernel-devel-7.0.0-0.rc1.260224g7dff99b354601.17.fc45.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc1.260224g7dff99b354601.17.fc45/x86_64/kernel-7.0.0-0.rc1.260224g7dff99b354601.17.fc45.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc1.260224g7dff99b354601.17.fc45/x86_64/kernel-core-7.0.0-0.rc1.260224g7dff99b354601.17.fc45.x86_64.rpm"
   ],
-  "release": "0.rc1.15",
+  "release": "0.rc1.260224g7dff99b354601.17",
   "version": "7.0.0"
 }
