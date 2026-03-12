@@ -1,12 +1,12 @@
 {
   "dist": "fc43",
   "major_version": "6",
-  "minor_version": "18",
+  "minor_version": "19",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.16/200.fc43/x86_64/kernel-6.18.16-200.fc43.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.16/200.fc43/x86_64/kernel-devel-6.18.16-200.fc43.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/6.18.16/200.fc43/x86_64/kernel-core-6.18.16-200.fc43.x86_64.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.6/200.fc43/x86_64/kernel-6.19.6-200.fc43.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.6/200.fc43/x86_64/kernel-devel-6.19.6-200.fc43.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/6.19.6/200.fc43/x86_64/kernel-core-6.19.6-200.fc43.x86_64.rpm"
   ],
   "release": "200",
-  "version": "6.18.16"
+  "version": "6.19.6"
 }
