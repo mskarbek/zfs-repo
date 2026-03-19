@@ -3,10 +3,10 @@
   "major_version": "7",
   "minor_version": "0",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc4.260317g2d1373e4246d.37.fc45/x86_64/kernel-7.0.0-0.rc4.260317g2d1373e4246d.37.fc45.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc4.260317g2d1373e4246d.37.fc45/x86_64/kernel-devel-7.0.0-0.rc4.260317g2d1373e4246d.37.fc45.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc4.260317g2d1373e4246d.37.fc45/x86_64/kernel-core-7.0.0-0.rc4.260317g2d1373e4246d.37.fc45.x86_64.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc4.260318ga989fde763f4.38.fc45/x86_64/kernel-7.0.0-0.rc4.260318ga989fde763f4.38.fc45.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc4.260318ga989fde763f4.38.fc45/x86_64/kernel-devel-7.0.0-0.rc4.260318ga989fde763f4.38.fc45.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/0.rc4.260318ga989fde763f4.38.fc45/x86_64/kernel-core-7.0.0-0.rc4.260318ga989fde763f4.38.fc45.x86_64.rpm"
   ],
-  "release": "0.rc4.260317g2d1373e4246d.37",
+  "release": "0.rc4.260318ga989fde763f4.38",
   "version": "7.0.0"
 }
