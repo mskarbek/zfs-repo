@@ -1,12 +1,12 @@
 {
   "dist": "fc45",
   "major_version": "7",
-  "minor_version": "0",
+  "minor_version": "1",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/62.fc45/x86_64/kernel-7.0.0-62.fc45.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/62.fc45/x86_64/kernel-devel-7.0.0-62.fc45.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/62.fc45/x86_64/kernel-core-7.0.0-62.fc45.x86_64.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.1.0/0.rc1.260428g3b3bea6d4b9c1.10.fc45/x86_64/kernel-devel-7.1.0-0.rc1.260428g3b3bea6d4b9c1.10.fc45.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.1.0/0.rc1.260428g3b3bea6d4b9c1.10.fc45/x86_64/kernel-7.1.0-0.rc1.260428g3b3bea6d4b9c1.10.fc45.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.1.0/0.rc1.260428g3b3bea6d4b9c1.10.fc45/x86_64/kernel-core-7.1.0-0.rc1.260428g3b3bea6d4b9c1.10.fc45.x86_64.rpm"
   ],
-  "release": "62",
-  "version": "7.0.0"
+  "release": "0.rc1.260428g3b3bea6d4b9c1.10",
+  "version": "7.1.0"
 }
