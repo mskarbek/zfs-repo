@@ -1,14 +1,14 @@
 {
-  "dist": "eln155",
+  "dist": "eln156",
   "major_version": "7",
-  "minor_version": "0",
+  "minor_version": "1",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/62.eln155/x86_64/kernel-7.0.0-62.eln155.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/62.eln155/x86_64/kernel-devel-7.0.0-62.eln155.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/62.eln155/x86_64/kernel-headers-7.0.0-62.eln155.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/62.eln155/x86_64/kernel-core-7.0.0-62.eln155.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.0/62.eln155/noarch/kernel-abi-stablelists-7.0.0-62.eln155.noarch.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.1.0/0.rc1.260501g26fd6bff2c050.13.eln156/x86_64/kernel-devel-7.1.0-0.rc1.260501g26fd6bff2c050.13.eln156.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.1.0/0.rc1.260501g26fd6bff2c050.13.eln156/x86_64/kernel-headers-7.1.0-0.rc1.260501g26fd6bff2c050.13.eln156.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.1.0/0.rc1.260501g26fd6bff2c050.13.eln156/x86_64/kernel-7.1.0-0.rc1.260501g26fd6bff2c050.13.eln156.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.1.0/0.rc1.260501g26fd6bff2c050.13.eln156/x86_64/kernel-core-7.1.0-0.rc1.260501g26fd6bff2c050.13.eln156.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.1.0/0.rc1.260501g26fd6bff2c050.13.eln156/noarch/kernel-abi-stablelists-7.1.0-0.rc1.260501g26fd6bff2c050.13.eln156.noarch.rpm"
   ],
-  "release": "62",
-  "version": "7.0.0"
+  "release": "0.rc1.260501g26fd6bff2c050.13",
+  "version": "7.1.0"
 }
