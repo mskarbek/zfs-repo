@@ -3,10 +3,10 @@
   "major_version": "7",
   "minor_version": "0",
   "packages": [
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.6/100.fc43/x86_64/kernel-7.0.6-100.fc43.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.6/100.fc43/x86_64/kernel-devel-7.0.6-100.fc43.x86_64.rpm",
-    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.6/100.fc43/x86_64/kernel-core-7.0.6-100.fc43.x86_64.rpm"
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.8/100.fc43/x86_64/kernel-devel-7.0.8-100.fc43.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.8/100.fc43/x86_64/kernel-7.0.8-100.fc43.x86_64.rpm",
+    "https://kojipkgs.fedoraproject.org/packages/kernel/7.0.8/100.fc43/x86_64/kernel-core-7.0.8-100.fc43.x86_64.rpm"
   ],
   "release": "100",
-  "version": "7.0.6"
+  "version": "7.0.8"
 }
